@@ -1,0 +1,14 @@
+Anh em cần chuẩn bị hosting, domain, và một con bot telegram
+
+B1: Tạo nhóm group công khai, mời con bot vào và cấp quyền làm admin cho bot
+B2: Vào file bot.php thay thông tin token bot của anh em, và thay cả id group cần chạy (nếu không muốn chạy cho group anh em có thể điền thẳng id của nick tele anh em)
+    Thay luôn đường dẫn tới API (convertID.php, apiCheck.php) trong đoạn bot.php của anh em để nó có thể hoạt động
+
+B3 (Bước quan trọng nhất): Thiết lập (set webhook) link dẫn tới file bot của anh em, ví dụ như mình thì sẽ là https://scaninfo.vn/api/bot.php 
+
+Chúc anh em thành công (File bot này là độc quyền của mình tự tạo ra nhưng có thanh niên tự nhận là của hắn và đã nhận vơ nên mình quyết định code theo y chang bot hắn để anh em sài chơi)
+
+
+// Lưu ý trong file tokenEAAD6V7.txt anh em có thể add nhiều token vào cũng được, nhưng lưu ý mỗi dòng là một token. VÀ KHÔNG BẮT BUỘC PHẢI LÀ TOKEN LOẠI EAAD6V7, ANH EM CÓ THỂ SÀI CÁC LOẠI TOKEN FULL QUYỀN KHÁC
+
+NẾU ANH EM KHÔNG BIẾT CHUYỂN ĐỔI TỪ COOKIE SANG TOKEN THÌ CÓ THỂ VÀO NHÓM https://t.me/tienich ĐỂ CHUYỂN ĐỔI NHÉ!
